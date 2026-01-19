@@ -82,7 +82,10 @@ public class Main {
         System.out.println("Enter new name and new age:");
         String line = sc.nextLine().trim();
         String[] parts = line.split("\\s+");
-        if (parts.length < 2) explainedReturn();
+        if (parts.length < 2) {
+            System.out.println("Invalid input.");
+            return;
+        }
 
         String newName = parts[0];
         int newAge;
@@ -100,12 +103,6 @@ public class Main {
 
         System.out.printf("%s %d changed to %s %d.%n", oldName, oldAge, newName, newAge);
         System.out.println();
-    }
-
-    private static void explainedReturn() {
-        // helper to keep code short; shouldn't happen in normal use
-        System.out.println("Invalid input.");
-        throw new IllegalArgumentException();
     }
 
     private static void removePetFlow(Scanner sc, PetDatabase db) {

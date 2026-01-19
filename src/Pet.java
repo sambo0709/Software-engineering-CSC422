@@ -10,6 +10,7 @@ Description: Pet model class (name and age).
 */
 
 public class Pet {
+
     private String name;
     private int age;
 
@@ -24,3 +25,4 @@ public class Pet {
     public void setName(String name) { this.name = name; }
     public void setAge(int age) { this.age = age; }
 }
+
