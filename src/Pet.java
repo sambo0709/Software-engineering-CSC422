@@ -5,7 +5,7 @@ Signed: Samuel Boye
 Date: 01/18/2026
 Class: CSC 422
 File Name: Pet.java
-Assignment: Assignment 1 Part 2
+Assignment: Assignment 2 Part 2
 Description: Pet model class (name and age).
 */
 
@@ -25,4 +25,3 @@ public class Pet {
     public void setName(String name) { this.name = name; }
     public void setAge(int age) { this.age = age; }
 }
-
