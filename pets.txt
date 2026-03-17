@@ -1,0 +1,4 @@
+Whiskers 4
+Rex 7
+Buddy 3
+Craig 15
